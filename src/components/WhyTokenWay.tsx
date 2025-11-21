@@ -4,7 +4,7 @@ const features = [
   {
     icon: CheckCircle,
     title: 'Regulatory Confidence',
-    description: 'TokenWay is MiCA-ready and tested within the CzechInvest regulatory sandbox, providing a compliant foundation for token issuance across Europe.'
+    description: 'TokenWay is MiCA-ready providing a compliant foundation for token issuance across Europe.'
   },
   {
     icon: Network,

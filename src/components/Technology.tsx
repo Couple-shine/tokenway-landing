@@ -68,7 +68,7 @@ export default function Technology() {
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 bg-yellow-600 rounded-full mt-2"></div>
-                <p className="text-slate-700">Full MiCA compliance tested within the CzechInvest sandbox.</p>
+                <p className="text-slate-700">Full MiCA compliance</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 bg-yellow-600 rounded-full mt-2"></div>
