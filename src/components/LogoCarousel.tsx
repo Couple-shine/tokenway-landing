@@ -1,6 +1,5 @@
 import circleLogo from '../assets/circle logo.svg';
 import czechFintechLogo from '../assets/czech fintech association logo.svg';
-import czechinvestLogo from '../assets/czechinvest logo.svg';
 import diaLogo from '../assets/DIA logo.svg';
 import polygonLogo from '../assets/polygon.svg';
 
@@ -8,7 +7,6 @@ export default function LogoCarousel() {
   const partners = [
     { name: 'Circle', logo: circleLogo },
     { name: 'Czech Fintech Association', logo: czechFintechLogo },
-    { name: 'CzechInvest', logo: czechinvestLogo },
     { name: 'DIA', logo: diaLogo },
     { name: 'Polygon', logo: polygonLogo },
   ];
