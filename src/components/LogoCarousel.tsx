@@ -2,6 +2,8 @@ import circleLogo from '../assets/circle logo.svg';
 import czechFintechLogo from '../assets/czech fintech association logo.svg';
 import diaLogo from '../assets/DIA logo.svg';
 import polygonLogo from '../assets/polygon.svg';
+import sandboxLogo from '../assets/logo_regulatory_CI_positive.png';
+import partnersLogo from '../assets/EU_NPO_MPO_CI.png';
 
 export default function LogoCarousel() {
   const partners = [
@@ -13,6 +15,21 @@ export default function LogoCarousel() {
 
   return (
     <section className="py-16 bg-slate-50 border-y border-slate-200">
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <h3 className='text-lg font-bold text-slate-900 mb-6 text-center w-full'>
+          PARTICIPANT IN THE CZECH FINTECH SANDBOX
+        </h3>
+        <div className='flex items-center justify-center'>
+          <img src={sandboxLogo} alt='sandbox' className='h-24 w-auto' />
+        </div>
+
+        <div className='flex items-center justify-center'>
+          <img src={partnersLogo} alt='partners' className='h-24 w-auto' />
+        </div>
+      </div>
+
+      <div className='h-px bg-slate-200 my-8' />
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <p className="text-sm font-semibold text-slate-500 uppercase tracking-wider">
