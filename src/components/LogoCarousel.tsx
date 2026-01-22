@@ -19,6 +19,11 @@ export default function LogoCarousel() {
         <h3 className='text-lg font-bold text-slate-900 mb-6 text-center w-full'>
           PARTICIPANT IN THE CZECH FINTECH SANDBOX
         </h3>
+
+        <p className='text-md font-semibold text-slate-500 mb-6 text-center w-full max-w-2xl mx-auto'>
+          The Digital Regulatory Sandbox project (ID No. NPO/2) is funded by the European Union through the National Recovery Plan and the Ministry of Industry and Trade.
+        </p>
+
         <div className='flex items-center justify-center'>
           <img src={sandboxLogo} alt='sandbox' className='h-24 w-auto' />
         </div>
