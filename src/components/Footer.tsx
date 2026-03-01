@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import tokenWayLogoWhite from '../assets/TokenWay logo White.svg';
+import tokenWayLogoBlue from '../assets/TKW Blue.png';
 
 export default function Footer() {
   return (
@@ -8,11 +8,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center max-w-3xl mx-auto">
           <div className="mb-8">
-            <img
-              src={tokenWayLogoWhite}
-              alt="TokenWay"
-              className="h-10 mx-auto"
-            />
+            <div className="inline-flex items-center rounded-xl bg-slate-100/70 px-4 py-3 ring-1 ring-white/10 backdrop-blur-sm">
+              <img
+                src={tokenWayLogoBlue}
+                alt="TokenWay"
+                className="h-10 w-auto"
+              />
+            </div>
           </div>
 
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 leading-tight">

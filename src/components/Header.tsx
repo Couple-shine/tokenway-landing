@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import tokenWayLogoWhite from '../assets/TokenWay logo White.svg';
+import tokenWayLogoBlue from '../assets/TKW Blue.png';
 
 export default function Header() {
   return (
@@ -8,11 +8,13 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <Link to="/">
-              <img
-                src={tokenWayLogoWhite}
-                alt="TokenWay"
-                className="h-6"
-              />
+              <span className="inline-flex items-center rounded-lg bg-slate-100/70 px-3 py-2 ring-1 ring-white/10 backdrop-blur-sm">
+                <img
+                  src={tokenWayLogoBlue}
+                  alt="TokenWay"
+                  className="h-7 w-auto"
+                />
+              </span>
             </Link>
           </div>
 

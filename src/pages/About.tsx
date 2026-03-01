@@ -4,23 +4,23 @@ export default function About() {
   const values = [
     {
       icon: Shield,
-      title: 'Compliance First',
-      description: 'MiCA-compliant from day one. We prioritize regulatory alignment to protect issuers and investors.',
+      title: 'Evolution',
+      description: 'Progress in capital markets through a smooth and steady transition.',
     },
     {
       icon: Award,
-      title: 'Innovation',
-      description: 'Cutting-edge blockchain technology meets traditional finance to create seamless tokenization solutions.',
+      title: 'Clarity',
+      description: 'We choose clarity and transparency in a noisy world of capital finance.',
     },
     {
       icon: Users,
-      title: 'Client Focused',
-      description: 'White-label solutions that match your brand. We succeed when you succeed.',
+      title: 'Credibility',
+      description: 'Trust is earned & finance runs on confidence.',
     },
     {
       icon: Target,
-      title: 'Regional Expertise',
-      description: 'Deep understanding of CEE markets, regulations, and business culture.',
+      title: 'Flow',
+      description: 'Capital should move as smoothly as ideas. We keep the flow running.',
     },
   ];
 
@@ -30,10 +30,10 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-              About TokenWay
+              About DLTBridge
             </h1>
             <p className="text-xl text-slate-300 leading-relaxed">
-              Building the future of compliant tokenization in Central and Eastern Europe
+              Connecting Traditional Finance to Digital Capital Markets
             </p>
           </div>
         </div>
@@ -100,6 +100,76 @@ export default function About() {
                   </p>
                 </div>
               ))}
+            </div>
+          </div>
+
+          <div className="mb-24">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold text-slate-900 mb-4">
+                Our Team
+              </h2>
+              <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
+                Credibility is a must to open the market. Our leadership team combines deep technical innovation with decades of institutional finance and legal expertise.
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all overflow-hidden">
+                <div className="h-56 bg-gradient-to-br from-brand-cool-from/20 to-brand-cool-to/20 border-b border-slate-200 flex items-center justify-center">
+                  <div className="w-24 h-24 rounded-2xl bg-white/70 backdrop-blur-sm border border-white/40 flex items-center justify-center">
+                    <span className="text-3xl font-bold text-brand-navy">GA</span>
+                  </div>
+                </div>
+                <div className="p-8">
+                  <div className="text-sm font-semibold text-slate-500">
+                    CEO &amp; Co-Founder
+                  </div>
+                  <h3 className="text-2xl font-bold text-slate-900 mt-1">
+                    Guillermo Alda
+                  </h3>
+                  <p className="text-slate-600 leading-relaxed mt-4">
+                    Deep tech entrepreneur, engineer, and digital assets investor with a prior AI studio exit.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all overflow-hidden">
+                <div className="h-56 bg-gradient-to-br from-slate-900/10 to-brand-navy/10 border-b border-slate-200 flex items-center justify-center">
+                  <div className="w-24 h-24 rounded-2xl bg-white/70 backdrop-blur-sm border border-white/40 flex items-center justify-center">
+                    <span className="text-3xl font-bold text-brand-navy">MD</span>
+                  </div>
+                </div>
+                <div className="p-8">
+                  <div className="text-sm font-semibold text-slate-500">
+                    CLO &amp; Co-Founder
+                  </div>
+                  <h3 className="text-2xl font-bold text-slate-900 mt-1">
+                    Dr. Michaela Day
+                  </h3>
+                  <p className="text-slate-600 leading-relaxed mt-4">
+                    Doctor in Law bringing over 25 years of expertise in international transactions and real estate.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all overflow-hidden">
+                <div className="h-56 bg-gradient-to-br from-brand-cool-to/20 to-brand-cool-from/20 border-b border-slate-200 flex items-center justify-center">
+                  <div className="w-24 h-24 rounded-2xl bg-white/70 backdrop-blur-sm border border-white/40 flex items-center justify-center">
+                    <span className="text-3xl font-bold text-brand-navy">EX</span>
+                  </div>
+                </div>
+                <div className="p-8">
+                  <div className="text-sm font-semibold text-slate-500">
+                    Other Experts
+                  </div>
+                  <h3 className="text-2xl font-bold text-slate-900 mt-1">
+                    Cross-Functional Teams
+                  </h3>
+                  <p className="text-slate-600 leading-relaxed mt-4">
+                    Top-tier teams: Tech R&amp;D, Go-To-Market, Real Estate, and Strategic Execution.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 

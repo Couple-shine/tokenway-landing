@@ -1,6 +1,7 @@
 import circleLogo from '../assets/circle logo.svg';
 import czechFintechLogo from '../assets/czech fintech association logo.svg';
-import diaLogo from '../assets/DIA logo.svg';
+import bankIdLogo from '../assets/bank_id.png';
+import cordaLogo from '../assets/r3_corda.png';
 import polygonLogo from '../assets/polygon.svg';
 import sandboxLogo from '../assets/logo_regulatory_CI_positive.png';
 import partnersLogo from '../assets/EU_NPO_MPO_CI.png';
@@ -9,7 +10,9 @@ export default function LogoCarousel() {
   const partners = [
     { name: 'Circle', logo: circleLogo },
     { name: 'Czech Fintech Association', logo: czechFintechLogo },
-    { name: 'DIA', logo: diaLogo },
+    // { name: 'DIA', logo: diaLogo },
+    { name: 'Bank ID', logo: bankIdLogo },
+    { name: 'Corda', logo: cordaLogo },
     { name: 'Polygon', logo: polygonLogo },
   ];
 
