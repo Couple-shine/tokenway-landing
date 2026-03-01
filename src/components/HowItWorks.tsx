@@ -11,21 +11,21 @@ export default function HowItWorks() {
               <span className="text-sm text-slate-600 font-medium">Our Process</span>
             </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-              Tokenization, Tailored to You
+              Integration without Disruption
             </h2>
           </div>
 
           <div className="bg-gradient-to-br from-slate-50 to-brand-cool-to/10 rounded-2xl p-8 lg:p-12 border border-slate-200">
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-              Every project is different — and so is our approach. TokenWay creates personalized tokenization solutions that fit your business model, investor base, and compliance requirements.
+              Over 55% of banks are paralyzed by legacy core systems. We built DLTBridge with an integration-first architecture that natively communicates with your existing frameworks.
             </p>
 
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-              We integrate Circle Alliance APIs for USDC and EURC custody, fiat–crypto settlement, and SEPA payments, ensuring smooth transactions and regulatory alignment.
+              Our solution operates seamlessly and entirely within your bank&apos;s existing regulated environment. DLTBridge acts as the single interoperability infrastructure bridging EU DLT providers and capital institutions.
             </p>
 
             <p className="text-lg text-slate-700 leading-relaxed mb-8">
-              From concept to launch, our team helps you design, implement, and operate a fully compliant token issuance system — built for growth and investor trust.
+              We do not run trading systems or tokenization platforms. The ability to connect multiple nodes to multiple clients and act as a true digital infrastructure provider makes us unique.
             </p>
 
             <div className="flex justify-center">

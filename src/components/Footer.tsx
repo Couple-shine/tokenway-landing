@@ -20,7 +20,7 @@ export default function Footer() {
           </h2>
 
           <p className="text-xl text-slate-300 leading-relaxed mb-8">
-            TokenWay is redefining tokenization across the CEE region — merging regulatory rigor, blockchain innovation, and local expertise.
+            DLTBridge makes digital future effortless - providing one fully compliant and seamless solution.
           </p>
 
           <p className="text-lg text-slate-400 leading-relaxed mb-12">
@@ -39,8 +39,33 @@ export default function Footer() {
 
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center text-sm text-slate-400">
-            <div>© 2025 TokenWay. All rights reserved.</div>
+          <div className="text-center text-sm text-slate-400 space-y-2">
+            <div className="text-slate-300">
+              DLT Bridge by TokenWay | © 2026 TokenWay s.r.o.
+            </div>
+            <div>
+              <a
+                href="https://dltb.eu"
+                className="hover:text-white transition-colors"
+                target="_blank"
+                rel="noreferrer"
+              >
+                dltb.eu
+              </a>{' '}
+              | TokenWay&apos;s institutional DLT product
+            </div>
+            <div>Prague, Czech Republic</div>
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 pt-2">
+              <Link to="/privacy-policy" className="hover:text-white transition-colors">
+                Privacy Policy
+              </Link>
+              <Link to="/terms-of-service" className="hover:text-white transition-colors">
+                Terms of Service
+              </Link>
+              <Link to="/contact" className="hover:text-white transition-colors">
+                Institutional Contact
+              </Link>
+            </div>
           </div>
         </div>
       </div>

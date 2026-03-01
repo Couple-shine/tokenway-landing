@@ -1,66 +1,101 @@
-import { CheckCircle, Network, CreditCard, Store, MapPin } from 'lucide-react';
+import { TrendingUp, Timer, Landmark } from 'lucide-react';
 
-const features = [
+const metrics = [
   {
-    icon: CheckCircle,
-    title: 'Regulatory Confidence',
-    description: 'TokenWay is MiCA-ready providing a compliant foundation for token issuance across Europe.'
+    icon: TrendingUp,
+    metric: 'Up to 207%',
+    title: 'Profit Expansion',
+    description:
+      'Eliminate 50–80% intermediary, issuance, and distribution costs, generating +110%–207% higher annual profits.'
   },
   {
-    icon: Network,
-    title: 'Advanced Technology',
-    description: 'Dual-chain support — Polygon for scalable utility and hybrid tokens, and Corda (DLT Prague) for regulated security tokens integrated with the Prague Stock Exchange DLT node.'
+    icon: Timer,
+    metric: 'T+0',
+    title: 'Settlement',
+    description:
+      'Atomic settlement replaces legacy T+2 processes and reduces post-trade reconciliation failures and counterparty risks by automating AML/KYC at the protocol level under your own regulatory licenses.'
   },
   {
-    icon: CreditCard,
-    title: 'Flexible Payments',
-    description: 'Integrated Circle Alliance APIs for USDC and EURC settlements, alongside SEPA payments, make token purchases frictionless for both institutional and retail investors across the CEE region.'
-  },
-  {
-    icon: Store,
-    title: 'Direct Token Sales',
-    description: 'Embed our white-label modules directly on your website and sell tokens under your brand — TokenWay delivers the secure, compliant backend infrastructure.'
-  },
-  {
-    icon: MapPin,
-    title: 'Regional Expertise',
-    description: 'As a CEE-based tokenization provider, TokenWay connects technology and compliance to unlock the region\'s vast digital investment potential.'
+    icon: Landmark,
+    metric: '€900B',
+    title: 'Market Access',
+    description:
+      'A standardized, plug-and-play solution offers single access to all EU DLT nodes, creating a unified infrastructure across EU DLT settlement systems. This connectivity bridges legacy user interfaces to €800B in bond and €100B in equity markets throughout the EU.'
   }
 ];
 
 export default function WhyTokenWay() {
+  const cardStyles = [
+    {
+      wrapper:
+        'bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:shadow-lg transition-all',
+      badge: 'bg-brand-cool-to/10 text-brand-navy border border-brand-cool-to/20',
+      icon: 'bg-gradient-to-br from-brand-cool-from to-brand-cool-to',
+      accent: 'from-brand-cool-from/10 to-brand-cool-to/10',
+    },
+    {
+      wrapper:
+        'bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:shadow-lg transition-all',
+      badge: 'bg-slate-900 text-white border border-white/10',
+      icon: 'bg-brand-navy',
+      accent: 'from-slate-900/5 to-brand-navy/10',
+    },
+    {
+      wrapper:
+        'bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:shadow-lg transition-all',
+      badge: 'bg-brand-cool-from/10 text-brand-navy border border-brand-cool-from/20',
+      icon: 'bg-gradient-to-br from-brand-cool-to to-brand-cool-from',
+      accent: 'from-brand-cool-to/10 to-brand-cool-from/10',
+    },
+  ];
+
   return (
     <section className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Why TokenWay
+            Unlock Radical Capital Efficiency
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.slice(0, 3).map((feature, index) => (
-            <div key={index} className="bg-white rounded-xl p-8 border border-slate-200 hover:border-brand-cool-to/40 transition-all hover:shadow-lg">
-              <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
-                <feature.icon className="w-7 h-7 text-white" />
+        <div className="grid lg:grid-cols-3 gap-8">
+          {metrics.map((item, index) => {
+            const styles = cardStyles[index] ?? cardStyles[0];
+            return (
+              <div
+                key={item.title}
+                className={`${styles.wrapper} bg-gradient-to-br ${styles.accent}`}
+              >
+                <div className="flex items-start justify-between gap-6">
+                  <div>
+                    <div
+                      className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold ${styles.badge}`}
+                    >
+                      {item.metric}
+                    </div>
+                    <h3 className="text-2xl font-bold text-slate-900 mt-4">
+                      {item.title}
+                    </h3>
+                  </div>
+
+                  <div
+                    className={`w-14 h-14 ${styles.icon} rounded-2xl flex items-center justify-center shadow-lg`}
+                  >
+                    <item.icon className="w-7 h-7 text-white" />
+                  </div>
+                </div>
+
+                <p className="text-slate-700 leading-relaxed mt-6">
+                  {item.description}
+                </p>
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
-              <p className="text-slate-600 leading-relaxed">{feature.description}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto">
-          {features.slice(3).map((feature, index) => (
-            <div key={index} className="bg-white rounded-xl p-8 border border-slate-200 hover:border-brand-cool-to/40 transition-all hover:shadow-lg">
-              <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
-                <feature.icon className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
-              <p className="text-slate-600 leading-relaxed">{feature.description}</p>
-            </div>
-          ))}
-        </div>
+        <p className="text-center text-slate-700 leading-relaxed mt-12 max-w-4xl mx-auto">
+          As a CEE-based DLT orchestrator, DLTBridge connects technology and compliance to unlock the region&apos;s vast digital investment potential.
+        </p>
       </div>
     </section>
   );

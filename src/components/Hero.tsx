@@ -10,15 +10,19 @@ export default function Hero() {
         <div className="text-center max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-brand-cool-to/10 border border-brand-cool-to/20 rounded-full px-4 py-2 mb-8">
             <span className="w-2 h-2 bg-brand-cool-to rounded-full animate-pulse"></span>
-            <span className="text-sm text-brand-cool-to font-medium">MiCA-Compliant Tokenization Platform</span>
+            <span className="text-sm text-brand-cool-to font-medium">ESMA-Compliant DLT Platform</span>
           </div>
 
-          <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-brand-cool-to">
-            The Leading Tokenization Platform in Central and Eastern Europe
+          <h1 className="text-5xl lg:text-6xl font-bold mb-4 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-brand-cool-to">
+            DLT BRIDGE BY TOKENWAY
           </h1>
 
-          <p className="text-xl lg:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            Launch and manage MiCA-compliant tokens directly from your website. White-label technology, multi-chain architecture, and full regulatory support for issuers and investors.
+          <div className="text-lg lg:text-xl text-slate-200 mb-6 font-medium">
+            Connecting Traditional Finance to Digital Capital Markets
+          </div>
+
+          <p className="text-lg lg:text-xl text-slate-300 mb-12 leading-relaxed max-w-3xl mx-auto">
+            Enterprise-grade infrastructure for regulated institutions entering digital capital markets. DLTB enables banks, capital market institutions & issuers to create, manage, and distribute regulated digital investment instruments using EU mandated Distributed Ledger Technology (DLT).
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

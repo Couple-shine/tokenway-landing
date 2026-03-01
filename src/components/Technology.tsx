@@ -9,7 +9,7 @@ export default function Technology() {
             Technology & Compliance
           </h2>
           <p className="text-xl text-slate-600">
-            Enterprise-Grade Architecture. Real Compliance.
+            Tokenway Dlt Bridge Technology
           </p>
         </div>
 
@@ -18,12 +18,12 @@ export default function Technology() {
             <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
               <Cpu className="w-7 h-7 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-900 mb-4">Dual-Chain Design</h3>
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">Enterprise Dlt Connectivity</h3>
 
             <div className="space-y-4">
               <div className="bg-white rounded-lg p-4 border border-slate-200">
-                <div className="font-semibold text-slate-900 mb-2">Polygon</div>
-                <p className="text-slate-600 text-sm">Fast and cost-efficient token issuance for utility and hybrid tokens.</p>
+                <div className="font-semibold text-slate-900 mb-2">Modular Design</div>
+                <p className="text-slate-600 text-sm">Modular infrastructure bridges all settlement ledgers.</p>
               </div>
 
               <div className="bg-white rounded-lg p-4 border border-slate-200">
@@ -37,20 +37,24 @@ export default function Technology() {
             <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
               <DollarSign className="w-7 h-7 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-900 mb-4">Payments & Custody</h3>
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">Production Infrastructure</h3>
 
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
-                <p className="text-slate-700">Circle Alliance integration for USDC and EURC custody.</p>
+                <p className="text-slate-700">ISOP/DORA compliant architecture</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
-                <p className="text-slate-700">SEPA banking integration for regional payments.</p>
+                <p className="text-slate-700">10k TPS enterprise capacity</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
-                <p className="text-slate-700">Audit-ready logs ensuring complete transparency and compliance.</p>
+                <p className="text-slate-700">BankID institutional authentication</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
+                <p className="text-slate-700">24/7 enterprise monitoring systems</p>
               </div>
             </div>
           </div>
