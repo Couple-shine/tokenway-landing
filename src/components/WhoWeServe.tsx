@@ -25,22 +25,22 @@ export default function WhoWeServe() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white rounded-xl p-6 border border-slate-200 text-center hover:border-yellow-300 transition-all hover:shadow-md">
-              <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+            <div className="bg-white rounded-xl p-6 border border-slate-200 text-center hover:border-brand-cool-to/40 transition-all hover:shadow-md">
+              <div className="w-16 h-16 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <Building className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900">Enterprises</h3>
             </div>
 
-            <div className="bg-white rounded-xl p-6 border border-slate-200 text-center hover:border-yellow-300 transition-all hover:shadow-md">
-              <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+            <div className="bg-white rounded-xl p-6 border border-slate-200 text-center hover:border-brand-cool-to/40 transition-all hover:shadow-md">
+              <div className="w-16 h-16 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <Building2 className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900">Financial Institutions</h3>
             </div>
 
-            <div className="bg-white rounded-xl p-6 border border-slate-200 text-center hover:border-yellow-300 transition-all hover:shadow-md">
-              <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+            <div className="bg-white rounded-xl p-6 border border-slate-200 text-center hover:border-brand-cool-to/40 transition-all hover:shadow-md">
+              <div className="w-16 h-16 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                 <Briefcase className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900">Innovative SMEs</h3>

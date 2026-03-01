@@ -62,7 +62,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-yellow-50 to-slate-50 rounded-2xl p-8 lg:p-12">
+            <div className="bg-gradient-to-br from-brand-cool-to/10 to-slate-50 rounded-2xl p-8 lg:p-12">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">
                 Why CEE?
               </h3>
@@ -89,7 +89,7 @@ export default function About() {
                   key={index}
                   className="bg-slate-50 rounded-xl p-6 hover:shadow-lg transition-shadow duration-300"
                 >
-                  <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-lg flex items-center justify-center mb-4">
                     <value.icon className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-3">
@@ -120,7 +120,7 @@ export default function About() {
                 <p className="pt-4">
                   <a
                     href="mailto:inquiries@tokenway.io"
-                    className="text-yellow-400 hover:text-yellow-300 transition-colors"
+                    className="text-brand-cool-to hover:text-white transition-colors"
                   >
                     inquiries@tokenway.io
                   </a>

@@ -29,7 +29,7 @@ export default function Footer() {
 
           <Link
             to="/contact"
-            className="group bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-8 py-4 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 shadow-xl hover:shadow-2xl hover:scale-105 mx-auto"
+            className="group bg-gradient-to-r from-brand-cool-from to-brand-cool-to hover:opacity-90 text-brand-navy px-8 py-4 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 shadow-xl hover:shadow-2xl hover:scale-105 mx-auto"
           >
             Get in Touch Today
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

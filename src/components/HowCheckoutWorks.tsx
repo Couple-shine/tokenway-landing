@@ -47,7 +47,7 @@ export default function HowCheckoutWorks() {
             >
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0">
-                  <span className="text-5xl font-bold text-yellow-500">
+                  <span className="text-5xl font-bold text-brand-navy">
                     {step.number}
                   </span>
                 </div>
@@ -74,8 +74,8 @@ export default function HowCheckoutWorks() {
                 key={index}
                 className="flex items-start gap-3 bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10"
               >
-                <div className="flex-shrink-0 w-6 h-6 bg-yellow-500 rounded-full flex items-center justify-center mt-0.5">
-                  <Check className="w-4 h-4 text-slate-900" />
+                <div className="flex-shrink-0 w-6 h-6 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-full flex items-center justify-center mt-0.5">
+                  <Check className="w-4 h-4 text-brand-navy" />
                 </div>
                 <p className="text-slate-100 leading-relaxed">{point}</p>
               </div>

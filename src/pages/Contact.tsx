@@ -27,8 +27,8 @@ export default function Contact() {
 
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-yellow-500/10 rounded-lg flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-yellow-500" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-brand-cool-to/10 rounded-lg flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-brand-cool-to" />
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900 mb-2">
@@ -36,7 +36,7 @@ export default function Contact() {
                     </h3>
                     <a
                       href="mailto:inquiries@tokenway.io"
-                      className="text-slate-600 hover:text-yellow-600 transition-colors"
+                      className="text-slate-600 hover:text-brand-navy transition-colors"
                     >
                       inquiries@tokenway.io
                     </a>
@@ -44,8 +44,8 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-yellow-500/10 rounded-lg flex items-center justify-center">
-                    <MapPin className="w-6 h-6 text-yellow-500" />
+                  <div className="flex-shrink-0 w-12 h-12 bg-brand-cool-to/10 rounded-lg flex items-center justify-center">
+                    <MapPin className="w-6 h-6 text-brand-cool-to" />
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900 mb-2">
@@ -85,7 +85,7 @@ export default function Contact() {
                   <input
                     type="text"
                     id="name"
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-cool-to focus:border-transparent transition-all"
                     placeholder="Your name"
                   />
                 </div>
@@ -97,7 +97,7 @@ export default function Contact() {
                   <input
                     type="email"
                     id="email"
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-cool-to focus:border-transparent transition-all"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                   <input
                     type="text"
                     id="company"
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-cool-to focus:border-transparent transition-all"
                     placeholder="Your company name"
                   />
                 </div>
@@ -121,14 +121,14 @@ export default function Contact() {
                   <textarea
                     id="message"
                     rows={6}
-                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-brand-cool-to focus:border-transparent transition-all resize-none"
                     placeholder="Tell us about your project or inquiry..."
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-8 py-4 rounded-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl"
+                  className="w-full bg-gradient-to-r from-brand-cool-from to-brand-cool-to hover:opacity-90 text-brand-navy px-8 py-4 rounded-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl"
                 >
                   Send Message
                 </button>

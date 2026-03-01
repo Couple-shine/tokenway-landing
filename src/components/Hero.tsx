@@ -8,12 +8,12 @@ export default function Hero() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-24 lg:pt-40 lg:pb-32">
         <div className="text-center max-w-4xl mx-auto">
-          <div className="inline-flex items-center gap-2 bg-yellow-500/10 border border-yellow-400/20 rounded-full px-4 py-2 mb-8">
-            <span className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></span>
-            <span className="text-sm text-yellow-300 font-medium">MiCA-Compliant Tokenization Platform</span>
+          <div className="inline-flex items-center gap-2 bg-brand-cool-to/10 border border-brand-cool-to/20 rounded-full px-4 py-2 mb-8">
+            <span className="w-2 h-2 bg-brand-cool-to rounded-full animate-pulse"></span>
+            <span className="text-sm text-brand-cool-to font-medium">MiCA-Compliant Tokenization Platform</span>
           </div>
 
-          <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-yellow-200">
+          <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-brand-cool-to">
             The Leading Tokenization Platform in Central and Eastern Europe
           </h1>
 
@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               to="/contact"
-              className="group bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-8 py-4 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 shadow-xl hover:shadow-2xl hover:scale-105"
+              className="group bg-gradient-to-r from-brand-cool-from to-brand-cool-to hover:opacity-90 text-brand-navy px-8 py-4 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 shadow-xl hover:shadow-2xl hover:scale-105"
             >
               Book a Consultation
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -39,7 +39,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-yellow-500/50 to-transparent"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-cool-to/50 to-transparent"></div>
     </section>
   );
 }

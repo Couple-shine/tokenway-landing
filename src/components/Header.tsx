@@ -23,7 +23,7 @@ export default function Header() {
             <Link to="/about" className="text-slate-300 hover:text-white transition-colors">
               About Us
             </Link>
-            <Link to="/contact" className="bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-6 py-2 rounded-lg font-semibold transition-all duration-200">
+            <Link to="/contact" className="bg-gradient-to-r from-brand-cool-from to-brand-cool-to hover:opacity-90 text-brand-navy px-6 py-2 rounded-lg font-semibold transition-all duration-200">
               Contact Us
             </Link>
           </nav>

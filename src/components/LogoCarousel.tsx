@@ -49,7 +49,7 @@ export default function LogoCarousel() {
                 key={index}
                 className="flex-shrink-0 mx-8 flex items-center justify-center group"
               >
-                <div className="h-16 bg-white rounded-xl border border-slate-200 flex items-center justify-center px-6 group-hover:border-yellow-300 group-hover:shadow-md transition-all">
+                <div className="h-16 bg-white rounded-xl border border-slate-200 flex items-center justify-center px-6 group-hover:border-brand-cool-to/40 group-hover:shadow-md transition-all">
                   <img
                     src={partner.logo}
                     alt={partner.name}

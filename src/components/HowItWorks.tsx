@@ -15,7 +15,7 @@ export default function HowItWorks() {
             </h2>
           </div>
 
-          <div className="bg-gradient-to-br from-slate-50 to-yellow-50/50 rounded-2xl p-8 lg:p-12 border border-slate-200">
+          <div className="bg-gradient-to-br from-slate-50 to-brand-cool-to/10 rounded-2xl p-8 lg:p-12 border border-slate-200">
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
               Every project is different — and so is our approach. TokenWay creates personalized tokenization solutions that fit your business model, investor base, and compliance requirements.
             </p>
@@ -29,7 +29,7 @@ export default function HowItWorks() {
             </p>
 
             <div className="flex justify-center">
-              <button className="group bg-yellow-500 hover:bg-yellow-600 text-slate-900 px-8 py-4 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 shadow-lg hover:shadow-xl hover:scale-105">
+              <button className="group bg-gradient-to-r from-brand-cool-from to-brand-cool-to hover:opacity-90 text-brand-navy px-8 py-4 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 shadow-lg hover:shadow-xl hover:scale-105">
                 Contact Us Today
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>

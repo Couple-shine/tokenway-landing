@@ -40,8 +40,8 @@ export default function WhyTokenWay() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.slice(0, 3).map((feature, index) => (
-            <div key={index} className="bg-white rounded-xl p-8 border border-slate-200 hover:border-yellow-300 transition-all hover:shadow-lg">
-              <div className="w-14 h-14 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+            <div key={index} className="bg-white rounded-xl p-8 border border-slate-200 hover:border-brand-cool-to/40 transition-all hover:shadow-lg">
+              <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
                 <feature.icon className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>
@@ -52,8 +52,8 @@ export default function WhyTokenWay() {
 
         <div className="grid md:grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto">
           {features.slice(3).map((feature, index) => (
-            <div key={index} className="bg-white rounded-xl p-8 border border-slate-200 hover:border-yellow-300 transition-all hover:shadow-lg">
-              <div className="w-14 h-14 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+            <div key={index} className="bg-white rounded-xl p-8 border border-slate-200 hover:border-brand-cool-to/40 transition-all hover:shadow-lg">
+              <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
                 <feature.icon className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">{feature.title}</h3>

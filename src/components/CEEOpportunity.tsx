@@ -7,9 +7,9 @@ export default function CEEOpportunity() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 bg-yellow-500/20 border border-yellow-400/30 rounded-full px-4 py-2 mb-6">
-            <TrendingUp className="w-4 h-4 text-yellow-300" />
-            <span className="text-sm text-yellow-300 font-medium">Market Opportunity</span>
+          <div className="inline-flex items-center gap-2 bg-brand-cool-to/20 border border-brand-cool-to/30 rounded-full px-4 py-2 mb-6">
+            <TrendingUp className="w-4 h-4 text-brand-cool-to" />
+            <span className="text-sm text-brand-cool-to font-medium">Market Opportunity</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             Unlocking the Untapped Investment Market of Central and Eastern Europe
@@ -23,12 +23,12 @@ export default function CEEOpportunity() {
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 my-8">
-              <div className="bg-yellow-500/10 rounded-xl p-6 border border-yellow-400/20">
-                <div className="text-4xl font-bold text-yellow-300 mb-2">€300–350B</div>
+              <div className="bg-brand-cool-to/10 rounded-xl p-6 border border-brand-cool-to/20">
+                <div className="text-4xl font-bold text-brand-cool-to mb-2">€300–350B</div>
                 <div className="text-slate-300">Annual CEE investment spending</div>
               </div>
-              <div className="bg-yellow-500/10 rounded-xl p-6 border border-yellow-400/20">
-                <div className="text-4xl font-bold text-yellow-300 mb-2">4–5×</div>
+              <div className="bg-brand-cool-to/10 rounded-xl p-6 border border-brand-cool-to/20">
+                <div className="text-4xl font-bold text-brand-cool-to mb-2">4–5×</div>
                 <div className="text-slate-300">Larger than Czech market alone</div>
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function CEEOpportunity() {
               Despite this enormous potential, digital investment solutions and tokenized financial products remain limited. TokenWay is leading the transformation by providing compliant tokenization infrastructure and direct investor access for companies throughout the CEE region.
             </p>
 
-            <div className="bg-gradient-to-r from-yellow-600/20 to-yellow-500/20 rounded-xl p-6 border-l-4 border-yellow-400">
+            <div className="bg-gradient-to-r from-brand-cool-from/20 to-brand-cool-to/20 rounded-xl p-6 border-l-4 border-brand-cool-to">
               <p className="text-xl font-semibold text-white">
                 Our mission: to connect CEE's investment power with next-generation blockchain finance — securely, transparently, and under European regulation.
               </p>

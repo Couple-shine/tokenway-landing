@@ -14,8 +14,8 @@ export default function Technology() {
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
-          <div className="bg-gradient-to-br from-slate-50 to-yellow-50/30 rounded-2xl p-8 border border-slate-200">
-            <div className="w-14 h-14 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+          <div className="bg-gradient-to-br from-slate-50 to-brand-cool-to/10 rounded-2xl p-8 border border-slate-200">
+            <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
               <Cpu className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-slate-900 mb-4">Dual-Chain Design</h3>
@@ -33,45 +33,45 @@ export default function Technology() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-slate-50 to-yellow-50/30 rounded-2xl p-8 border border-slate-200">
-            <div className="w-14 h-14 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+          <div className="bg-gradient-to-br from-slate-50 to-brand-cool-to/10 rounded-2xl p-8 border border-slate-200">
+            <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
               <DollarSign className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-slate-900 mb-4">Payments & Custody</h3>
 
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-yellow-600 rounded-full mt-2"></div>
+                <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
                 <p className="text-slate-700">Circle Alliance integration for USDC and EURC custody.</p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-yellow-600 rounded-full mt-2"></div>
+                <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
                 <p className="text-slate-700">SEPA banking integration for regional payments.</p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-yellow-600 rounded-full mt-2"></div>
+                <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
                 <p className="text-slate-700">Audit-ready logs ensuring complete transparency and compliance.</p>
               </div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-slate-50 to-yellow-50/30 rounded-2xl p-8 border border-slate-200">
-            <div className="w-14 h-14 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+          <div className="bg-gradient-to-br from-slate-50 to-brand-cool-to/10 rounded-2xl p-8 border border-slate-200">
+            <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
               <ShieldCheck className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-2xl font-bold text-slate-900 mb-4">Built for Regulation</h3>
 
             <div className="space-y-3">
               <div className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-yellow-600 rounded-full mt-2"></div>
+                <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
                 <p className="text-slate-700">Integrated KYC/KYB verification workflows.</p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-yellow-600 rounded-full mt-2"></div>
+                <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
                 <p className="text-slate-700">Full MiCA compliance.</p>
               </div>
               <div className="flex items-start gap-3">
-                <div className="w-1.5 h-1.5 bg-yellow-600 rounded-full mt-2"></div>
+                <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
                 <p className="text-slate-700">Automated audit trails and regulatory reporting.</p>
               </div>
             </div>
