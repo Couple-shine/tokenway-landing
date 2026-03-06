@@ -1,28 +1,59 @@
-import { TrendingUp, Timer, Landmark } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
+import { TrendingUp, Timer, Landmark, Layers } from 'lucide-react';
 
-const metrics = [
+type ParagraphBlock = {
+  icon: LucideIcon;
+  title: string;
+  paragraphs: string[];
+};
+
+type BulletBlock = {
+  icon: LucideIcon;
+  title: string;
+  bullets: string[];
+};
+
+const blocks: Array<ParagraphBlock | BulletBlock> = [
   {
     icon: TrendingUp,
-    metric: 'Up to 207%',
-    title: 'Profit Expansion',
-    description:
-      'Eliminate 50–80% intermediary, issuance, and distribution costs, generating +110%–207% higher annual profits.'
+    title: 'Up to 50%+ Operational Simplification',
+    paragraphs: [
+      'Digital primary issuance on DLT-enabled infrastructures can remove multiple intermediary and reconciliation layers compared to legacy T+2 processes.',
+      'TokenWay provides the orchestration layer that allows banks to capture these efficiencies without altering their regulatory perimeter.',
+    ],
   },
   {
     icon: Timer,
-    metric: 'T+0',
-    title: 'Settlement',
-    description:
-      'Atomic settlement replaces legacy T+2 processes and reduces post-trade reconciliation failures and counterparty risks by automating AML/KYC at the protocol level under your own regulatory licenses.'
+    title: 'Impact depends on workflow design and selected infrastructure',
+    paragraphs: [
+      'T+0 Settlement Capabilities (Where Permitted)',
+      'Integration with DLT-based settlement systems enables support for near-real-time or T+0 settlement models where permitted — reducing counterparty exposure windows and post-trade friction.',
+      'TokenWay does not replace the venue — it unlocks access to infrastructure capable of doing so.',
+    ],
   },
   {
     icon: Landmark,
-    metric: '€900B',
-    title: 'Market Access',
-    description:
-      'A standardized, plug-and-play solution offers single access to all EU DLT nodes, creating a unified infrastructure across EU DLT settlement systems. This connectivity bridges legacy user interfaces to €800B in bond and €100B in equity markets throughout the EU.'
+    title: 'Broader Market Optionality',
+    paragraphs: [
+      'A single integration provides access to multiple regulated digital securities infrastructures across Europe — from DLT venues to electronic securities registers — expanding product capabilities without dependency on one system.',
+      'This flexibility allows institutions to respond as the European digital capital markets landscape consolidates.',
+    ],
+  },
+  {
+    icon: Layers,
+    title: 'Built for Institutional Scale',
+    bullets: [
+      'Secure API connectivity',
+      'Deterministic order-state management',
+      'Full audit trail and reconciliation',
+      'Bank-owned compliance and payment control',
+    ],
   }
 ];
+
+function isBulletBlock(block: ParagraphBlock | BulletBlock): block is BulletBlock {
+  return 'bullets' in block;
+}
 
 export default function WhyTokenWay() {
   const cardStyles = [
@@ -54,12 +85,19 @@ export default function WhyTokenWay() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-6">
-            Unlock Radical Capital Efficiency
+            Unlock Structural Capital Efficiency
           </h2>
+
+          <p className="text-xl text-slate-600 max-w-6xl mx-auto leading-relaxed">
+            Legacy capital markets infrastructure was built for paper-era workflows. Digital securities infrastructures are not.
+            DLT Bridge by TokenWay enables banks to access DLT-enabled environments capable of supporting T+0 settlement (where supported by the underlying venue), streamlined issuance workflows, and materially reduced post-trade complexity.
+
+            By replacing fragmented integrations with a single modular connection, institutions can significantly reduce operational overhead, reconciliation layers, and infrastructure duplication across digital securities activities.
+          </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
-          {metrics.map((item, index) => {
+        <div className="grid md:grid-cols-2 gap-8">
+          {blocks.map((item, index) => {
             const styles = cardStyles[index] ?? cardStyles[0];
             return (
               <div
@@ -68,26 +106,45 @@ export default function WhyTokenWay() {
               >
                 <div className="flex items-start justify-between gap-6">
                   <div>
-                    <div
-                      className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold ${styles.badge}`}
-                    >
-                      {item.metric}
-                    </div>
-                    <h3 className="text-2xl font-bold text-slate-900 mt-4">
+                    <h3 className="text-2xl font-bold text-slate-900">
                       {item.title}
                     </h3>
                   </div>
 
                   <div
-                    className={`w-14 h-14 ${styles.icon} rounded-2xl flex items-center justify-center shadow-lg`}
+                    className={`w-14 h-14 ${styles.icon} rounded-2xl flex items-center justify-center shadow-lg shrink-0`}
                   >
                     <item.icon className="w-7 h-7 text-white" />
                   </div>
                 </div>
 
-                <p className="text-slate-700 leading-relaxed mt-6">
-                  {item.description}
-                </p>
+                {isBulletBlock(item) ? (
+                  <ul className="mt-6 space-y-2 text-slate-700 leading-relaxed">
+                    {item.bullets.map((b) => (
+                      <li key={b} className="flex items-start gap-3">
+                        <span className="mt-2 h-1.5 w-1.5 rounded-full bg-brand-cool-to flex-shrink-0" />
+                        <span>{b}</span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <div className="mt-6 space-y-4 text-slate-700 leading-relaxed">
+                    {item.paragraphs.map((p, pIndex) => (
+                      <p
+                        key={pIndex}
+                        className={
+                          item.title ===
+                            'Impact depends on workflow design and selected infrastructure' &&
+                          pIndex === 0
+                            ? 'font-semibold text-slate-900'
+                            : undefined
+                        }
+                      >
+                        {p}
+                      </p>
+                    ))}
+                  </div>
+                )}
               </div>
             );
           })}

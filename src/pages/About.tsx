@@ -1,4 +1,6 @@
 import { Shield, Award, Users, Target } from 'lucide-react';
+import guillermoPhoto from '../assets/guillermo.jpg';
+import michaelaPhoto from '../assets/michaela.jpg';
 
 export default function About() {
   const values = [
@@ -64,17 +66,17 @@ export default function About() {
 
             <div className="bg-gradient-to-br from-brand-cool-to/10 to-slate-50 rounded-2xl p-8 lg:p-12">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">
-                Why CEE?
+                Why CEE? - The Strategic Hub for European Interoperability
               </h3>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Central and Eastern Europe represents a massive opportunity for digital securities.
-                With growing economies, tech-savvy populations, and progressive regulatory frameworks,
-                the region is perfectly positioned for tokenization.
+                Situated at the heart of Europe, the Central and Eastern European region is a regulation-forward, technologically aggressive launchpad for digital capital markets.
+                Operating from Prague, TokenWay is positioned at the exact center of this financial evolution.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                As a regional leader, we understand local markets, regulations, and business culture.
-                We work with payment providers like BankID and eID that CEE investors already know
-                and trust.
+                Our vision relies on an open, collaborative ecosystem.
+                We prioritize borderless cooperation, forming strategic partnerships with trading venues, tier-one institutions, and regulatory sandboxes to foster a unified digital market.
+                We are validating our infrastructure in this high-growth region to perfect the model, but our mandate is continental.
+                From the center of Europe, we are building the definitive interoperability layer to connect fragmented ledgers and scale seamless, borderless liquidity across the entire European Union.
               </p>
             </div>
           </div>
@@ -115,10 +117,14 @@ export default function About() {
 
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all overflow-hidden">
-                <div className="h-56 bg-gradient-to-br from-brand-cool-from/20 to-brand-cool-to/20 border-b border-slate-200 flex items-center justify-center">
-                  <div className="w-24 h-24 rounded-2xl bg-white/70 backdrop-blur-sm border border-white/40 flex items-center justify-center">
-                    <span className="text-3xl font-bold text-brand-navy">GA</span>
-                  </div>
+                <div className="h-56 border-b border-slate-200 relative overflow-hidden">
+                  <img
+                    src={guillermoPhoto}
+                    alt="Guillermo Alda"
+                    className="absolute inset-0 h-full w-full object-cover"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-brand-cool-from/15 to-brand-cool-to/15" />
                 </div>
                 <div className="p-8">
                   <div className="text-sm font-semibold text-slate-500">
@@ -134,10 +140,14 @@ export default function About() {
               </div>
 
               <div className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-lg transition-all overflow-hidden">
-                <div className="h-56 bg-gradient-to-br from-slate-900/10 to-brand-navy/10 border-b border-slate-200 flex items-center justify-center">
-                  <div className="w-24 h-24 rounded-2xl bg-white/70 backdrop-blur-sm border border-white/40 flex items-center justify-center">
-                    <span className="text-3xl font-bold text-brand-navy">MD</span>
-                  </div>
+                <div className="h-56 border-b border-slate-200 relative overflow-hidden">
+                  <img
+                    src={michaelaPhoto}
+                    alt="Dr. Michaela Day"
+                    className="absolute inset-0 h-full w-full object-cover"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-slate-900/10 to-brand-navy/10" />
                 </div>
                 <div className="p-8">
                   <div className="text-sm font-semibold text-slate-500">

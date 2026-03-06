@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="text-center max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-brand-cool-to/10 border border-brand-cool-to/20 rounded-full px-4 py-2 mb-8">
             <span className="w-2 h-2 bg-brand-cool-to rounded-full animate-pulse"></span>
-            <span className="text-sm text-brand-cool-to font-medium">ESMA-Compliant DLT Platform</span>
+            <span className="text-sm text-brand-cool-to font-medium">Built for Regulated Digital Capital Markets</span>
           </div>
 
           <h1 className="text-5xl lg:text-6xl font-bold mb-4 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-brand-cool-to">
@@ -18,11 +18,13 @@ export default function Hero() {
           </h1>
 
           <div className="text-lg lg:text-xl text-slate-200 mb-6 font-medium">
-            Connecting Traditional Finance to Digital Capital Markets
+            Institutional Infrastructure for Connecting Banks to Digital Securities Ecosystems
           </div>
 
-          <p className="text-lg lg:text-xl text-slate-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            Enterprise-grade infrastructure for regulated institutions entering digital capital markets. DLTB enables banks, capital market institutions & issuers to create, manage, and distribute regulated digital investment instruments using EU mandated Distributed Ledger Technology (DLT).
+          <p className="text-lg lg:text-xl text-slate-300 mb-12 leading-relaxed max-w-5xl mx-auto">
+            TokenWay provides enterprise-grade infrastructure for banks and capital market institutions to enter digital capital markets.
+            Our modular DLT Bridge connects regulated financial institutions to compliant digital securities infrastructures across Europe — including DLT venues and electronic securities registers — through a standardized, registry-agnostic integration layer.
+            Designed to support institutional-grade issuances, including corporate bonds, structured notes, and equity instruments.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -34,7 +36,7 @@ export default function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a
-              href="#how-checkout-works"
+              href="#how-it-works"
               className="bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 border border-white/20 inline-block"
             >
               Learn How It Works
