@@ -18,12 +18,16 @@ export default function Hero() {
           </h1>
 
           <div className="text-lg lg:text-xl text-slate-200 mb-6 font-medium">
-            Institutional Infrastructure for Connecting Banks to Digital Securities Ecosystems
+            Institutional Infrastructure Connecting Banks to Digital Securities Ecosystems
           </div>
 
           <p className="text-lg lg:text-xl text-slate-300 mb-12 leading-relaxed max-w-5xl mx-auto">
-            TokenWay provides enterprise-grade infrastructure for banks and capital market institutions to enter digital capital markets.
+            TokenWay provides enterprise-grade infrastructure for banks entering digital capital markets.
+            <br />
+            <br />
             Our modular DLT Bridge connects regulated financial institutions to compliant digital securities infrastructures across Europe — including DLT venues and electronic securities registers — through a standardized, registry-agnostic integration layer.
+            <br />
+            <br />
             Designed to support institutional-grade issuances, including corporate bonds, structured notes, and equity instruments.
           </p>
 

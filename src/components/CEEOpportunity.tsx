@@ -24,11 +24,11 @@ export default function CEEOpportunity() {
 
             <div className="grid md:grid-cols-2 gap-6 my-8">
               <div className="bg-brand-cool-to/10 rounded-xl p-6 border border-brand-cool-to/20">
-                <div className="text-4xl font-bold text-brand-cool-to mb-2">€800B</div>
+                <div className="text-4xl font-bold text-brand-cool-to mb-2">~€800B</div>
                 <div className="text-slate-300">Corporate bond issuance annually in Europe</div>
               </div>
               <div className="bg-brand-cool-to/10 rounded-xl p-6 border border-brand-cool-to/20">
-                <div className="text-4xl font-bold text-brand-cool-to mb-2">€100B</div>
+                <div className="text-4xl font-bold text-brand-cool-to mb-2">~€100B</div>
                 <div className="text-slate-300">Non-IPO equity issuance annually</div>
               </div>
             </div>

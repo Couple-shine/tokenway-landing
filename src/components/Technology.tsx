@@ -18,17 +18,17 @@ export default function Technology() {
             <div className="w-14 h-14 bg-gradient-to-br from-brand-cool-from to-brand-cool-to rounded-xl flex items-center justify-center mb-6 shadow-lg">
               <Cpu className="w-7 h-7 text-white" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-900 mb-4">Enterprise Dlt Connectivity</h3>
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">Enterprise DLT Connectivity</h3>
 
             <div className="space-y-4">
               <div className="bg-white rounded-lg p-4 border border-slate-200">
-                <div className="font-semibold text-slate-900 mb-2">Modular Design</div>
-                <p className="text-slate-600 text-sm">Modular infrastructure bridges all settlement ledgers.</p>
+                <div className="font-semibold text-slate-900 mb-2">Universal Integration</div>
+                <p className="text-slate-600 text-sm">A modular orchestration layer connecting multiple infrastructures, from regulated DLT venues to national frameworks (e.g., German eWpG).</p>
               </div>
 
               <div className="bg-white rounded-lg p-4 border border-slate-200">
-                <div className="font-semibold text-slate-900 mb-2">Corda (DLT Prague)</div>
-                <p className="text-slate-600 text-sm">Institutional DLT infrastructure for compliant security tokens connected to the Prague Stock Exchange.</p>
+                <div className="font-semibold text-slate-900 mb-2">Zero Workflow Disruption</div>
+                <p className="text-slate-600 text-sm">Connect once. Get access to a growing number of legally compliant digital registries seamlessly without altering your institution&apos;s internal operational workflows.</p>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function Technology() {
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>
-                <p className="text-slate-700">Full MiCA compliance.</p>
+                <p className="text-slate-700">DORA-ready architecture.</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 bg-brand-cool-to rounded-full mt-2"></div>

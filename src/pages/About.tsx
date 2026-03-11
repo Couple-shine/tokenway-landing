@@ -49,18 +49,16 @@ export default function About() {
                 Our Mission
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                TokenWay is the leading tokenization platform in Central and Eastern Europe,
-                providing MiCA-compliant infrastructure for issuers and investors.
+                DLTBridge by TokenWay is an enterprise-grade Distributed Ledger Technology (DLT) interoperability layer built for regulated financial institutions.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                We bridge traditional finance and blockchain technology, offering white-label
-                solutions that enable businesses to launch and manage digital securities with
-                full regulatory compliance.
+                Our mission is to seamlessly bridge the gap between legacy core banking architecture to compliant digital securities infrastructures across Europe — including DLT venues and electronic securities registers — through a standardized, registry-agnostic integration layer.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed mb-6">
+                By providing a single, fully compliant middleware layer, we empower banks, capital market institutions, and blue-chip issuers to eliminate settlement friction, drastically cut issuance costs, and unlock massive new liquidity.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
-                Our platform handles everything from investor verification and payment processing
-                to token allocation and regulatory reporting, allowing you to focus on growing
-                your business.
+                We deliver this financial transformation without ever disrupting your existing workflows or requiring you to relinquish control over your client data and regulatory licenses.
               </p>
             </div>
 

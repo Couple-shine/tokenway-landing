@@ -1,4 +1,5 @@
 import { Settings, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function HowItWorks() {
   return (
@@ -25,13 +26,13 @@ export default function HowItWorks() {
             </p>
 
             <div className="flex justify-center">
-              <a
+              <Link
                 className="group bg-gradient-to-r from-brand-cool-from to-brand-cool-to hover:opacity-90 text-brand-navy px-8 py-4 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 shadow-lg hover:shadow-xl hover:scale-105"
-                href="/contact"
+                to="/contact"
               >
                 Contact Us Today
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

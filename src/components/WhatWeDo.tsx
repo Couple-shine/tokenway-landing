@@ -6,16 +6,16 @@ export default function WhatWeDo() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-            One Integration. Multiple Regulated Infrastructure.
+            One Integration. Multiple Regulated Infrastructures.
           </h2>
           <p className="text-xl text-slate-600 max-w-5xl mx-auto leading-relaxed">
-            Digital capital markets are fragmenting across Europe — spanning diverse DLT venues and national electronic securities frameworks. In this evolving landscape, banks need flexibility — not dependency on a single infrastructure. TokenWay DLT Bridge integrates with multiple regulated infrastructures across Europe, enabling financial institutions to endlessly scale their access to digital assets liquidity.
+            Digital capital markets are fragmenting across Europe — spanning diverse DLT venues and national electronic securities frameworks. In this evolving landscape, banks need flexibility — not dependency on a single infrastructure.
           </p>
         </div>
 
         <div className="bg-gradient-to-br from-slate-50 to-brand-cool-to/10 rounded-2xl p-8 lg:p-12 border border-slate-200">
           <p className="text-lg text-slate-700 leading-relaxed mb-8">
-            DLT Bridge by TokenWay enables institutions to integrate once and connect to multiple regulated digital securities environments, expanding product access while retaining full control over clients, payments, and compliance. This flexibility allows financial institutions to endlessly scale their access to digital assets liquidity.
+            DLT Bridge by TokenWay enables institutions to integrate once and connect to multiple regulated digital securities environments, expanding product access while retaining full control over clients, payments, and compliance.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6">
